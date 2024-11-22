@@ -1,0 +1,302 @@
+nav{
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+
+.searchBoxInput{
+    border-radius: 30px;
+    border: none;
+    background-color: #e1e1e1;
+    width: 600px;
+}
+
+.searchBoxInput::placeholder{
+    color: black;
+}
+
+.fa-magnifying-glass{
+    position: relative;
+    left: 40px;
+    cursor: pointer;
+}
+
+.fa-bars-staggered{
+    cursor: pointer;
+}
+
+.sfm{
+    font-size: 0.9rem;
+}
+
+.shoppingforMore{
+    color: hsla(208, 100%, 50%, 0.906);
+}
+
+.shoppingforMore:hover{
+    color: hsla(208, 100%, 60%, 0.906);
+}
+
+.shoppingforMore:active{
+    color: hsla(208, 100%, 70%, 0.906);
+}
+
+.fa-cart-shopping{
+    font-size: 1.8rem;
+}
+
+.othersIcons{
+    font-size: 1.1rem;
+    cursor: pointer;
+}
+
+.content-box{
+    display: flex;
+    justify-content: space-between;
+}
+
+.anchorH{
+    text-decoration: none;
+}
+
+
+.add{
+    border: 1px solid #000;
+    border-radius: 10px;
+    cursor: pointer;
+    padding: 1px 9px;
+    background-color: #fcfcfc;
+}
+
+.bum{
+    position: relative;
+    bottom: 2px;
+}
+
+.minus{
+    border: 1px solid #000;
+    border-radius: 10px;
+    cursor: pointer;
+    padding: 1px 12px;
+    background-color: #fcfcfc;
+}
+
+.min{
+    position: relative;
+    bottom: 2.5px;
+}
+
+.productTest{
+    max-width: 77%;
+    height: 230px;
+    overflow: hidden;
+    border-radius: 16px;
+    box-shadow: 0px 14px 34px -22px rgba(0,0,0,0.72);
+    -webkit-box-shadow: 0px 14px 34px -22px rgba(0,0,0,0.72);
+    -moz-box-shadow: 0px 14px 34px -22px rgba(0,0,0,0.72);
+}
+
+.contentOfProduct{
+    line-height: 1px;
+ 
+}
+
+.BrandHaBHai{
+    color: rgb(90, 90, 90);
+}
+
+.brrr{
+    color: rgb(90, 90, 90);
+    margin-top: 40px;
+}
+
+.brr{
+    color: rgb(90, 90, 90);
+}
+
+.PriceTagH{
+    margin-top: 45px;
+}
+
+.contentOfQuantity{
+    margin-top: 45px;
+}
+
+.totalPriceHuBHai{
+    margin-top: 45px;
+    color: orange;
+}
+
+.mainContainerOfPrice{
+    margin-left: 100px;
+}
+
+#counterQuantity{
+    margin-top: 10px;
+}
+
+
+
+
+.btns{
+    width: 220px;
+    height: 230px;
+    /* overflow: hidden; */
+    background-color: #fff;
+    border-radius: 16px;
+    box-shadow: 0px 14px 34px -22px rgba(0,0,0,0.72);
+    -webkit-box-shadow: 0px 14px 34px -22px rgba(0,0,0,0.72);
+    -moz-box-shadow: 0px 14px 34px -22px rgba(0,0,0,0.72);
+}
+
+
+
+.purchaseBtn{
+    
+}
+
+
+.noselect {
+    width: 153px;
+    height: 40px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    background: red;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 1px 1px 3px rgba(0,0,0,0.15);
+    background: #e62222;
+   }
+   
+   .noselect, .noselect span {
+    transition: 200ms;
+   }
+   
+   .noselect .text {
+    transform: translateX(35px);
+    color: white;
+    font-weight: bold;
+   }
+   
+   .noselect .icon {
+    position: absolute;
+    border-left: 1px solid #c41b1b;
+    transform: translateX(110px);
+    height: 40px;
+    width: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   }
+   
+   .noselect svg {
+    width: 15px;
+    fill: #eee;
+   }
+   
+   .noselect:hover {
+    background: #ff3636;
+   }
+   
+   .noselect:hover .text {
+    color: transparent;
+   }
+   
+   .noselect:hover .icon {
+    width: 150px;
+    border-left: none;
+    transform: translateX(0);
+   }
+   
+   .noselect:focus {
+    outline: none;
+   }
+   
+   .noselect:active .icon svg {
+    transform: scale(0.8);
+   }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* From Uiverse.io by elijahgummer */ 
+.button-with-icon {
+    overflow: hidden;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #0f988e;
+    font-family: "Istok Web", sans-serif;
+    letter-spacing: 1px;
+    padding: 0 12px;
+    text-align: center;
+    width: 153px;
+    height: 40px;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: normal;
+    border-radius: 3px;
+    outline: none;
+    user-select: none;
+    cursor: pointer;
+    transform: translateY(0px);
+    position: relative;
+    box-shadow:
+      inset 0 30px 30px -15px rgba(255, 255, 255, 0.1),
+      inset 0 0 0 1px rgba(255, 255, 255, 0.3),
+      inset 0 1px 20px rgba(0, 0, 0, 0),
+      0 3px 0 #0f988e,
+      0 3px 2px rgba(0, 0, 0, 0.2),
+      0 5px 10px rgba(0, 0, 0, 0.1),
+      0 10px 20px rgba(0, 0, 0, 0.1);
+    background: #15ccbe;
+    color: white;
+    text-shadow: 0 1px 0 rgba(0, 0, 0, 0.3);
+    transition: 150ms all ease-in-out;
+  }
+  
+  .button-with-icon .icon {
+    margin-right: 8px;
+    width: 24px;
+    height: 24px;
+    transition: all 0.5s ease-in-out;
+  }
+  
+  .button-with-icon:active {
+    transform: translateY(3px);
+    box-shadow:
+      inset 0 16px 2px -15px rgba(0, 0, 0, 0),
+      inset 0 0 0 1px rgba(255, 255, 255, 0.15),
+      inset 0 1px 20px rgba(0, 0, 0, 0.1),
+      0 0 0 #0f988e,
+      0 0 0 2px rgba(255, 255, 255, 0.5),
+      0 0 0 rgba(0, 0, 0, 0),
+      0 0 0 rgba(0, 0, 0, 0);
+  }
+  
+  .button-with-icon:hover .text {
+    transform: translateX(80px);
+  }
+  .button-with-icon:hover .icon {
+    transform: translate(23px);
+  }
+  
+  .text {
+    transition: all 0.5s ease-in-out;
+  }
+  
